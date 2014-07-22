@@ -10,6 +10,8 @@
 		AA4322DE197DE1CF00346158 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4322DD197DE1CE00346158 /* Foundation.framework */; };
 		AA4322E1197DE1CF00346158 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4322E0197DE1CF00346158 /* main.m */; };
 		AA4322E5197DE1CF00346158 /* DrawACard.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AA4322E4197DE1CF00346158 /* DrawACard.1 */; };
+		AA4322ED197DE2C500346158 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4322EC197DE2C500346158 /* Card.m */; };
+		AA4322F3197DF76500346158 /* CardCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4322F2197DF76500346158 /* CardCtrl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,11 @@
 		AA4322E0197DE1CF00346158 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA4322E3197DE1CF00346158 /* DrawACard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrawACard-Prefix.pch"; sourceTree = "<group>"; };
 		AA4322E4197DE1CF00346158 /* DrawACard.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DrawACard.1; sourceTree = "<group>"; };
+		AA4322EB197DE2C500346158 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		AA4322EC197DE2C500346158 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		AA4322EE197DF51500346158 /* Definitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Definitions.h; sourceTree = "<group>"; };
+		AA4322F1197DF76500346158 /* CardCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCtrl.h; sourceTree = "<group>"; };
+		AA4322F2197DF76500346158 /* CardCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCtrl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +80,11 @@
 		AA4322DF197DE1CF00346158 /* DrawACard */ = {
 			isa = PBXGroup;
 			children = (
+				AA4322EE197DF51500346158 /* Definitions.h */,
+				AA4322EB197DE2C500346158 /* Card.h */,
+				AA4322EC197DE2C500346158 /* Card.m */,
+				AA4322F1197DF76500346158 /* CardCtrl.h */,
+				AA4322F2197DF76500346158 /* CardCtrl.m */,
 				AA4322E0197DE1CF00346158 /* main.m */,
 				AA4322E4197DE1CF00346158 /* DrawACard.1 */,
 				AA4322E2197DE1CF00346158 /* Supporting Files */,
@@ -139,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4322F3197DF76500346158 /* CardCtrl.m in Sources */,
 				AA4322E1197DE1CF00346158 /* main.m in Sources */,
+				AA4322ED197DE2C500346158 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
